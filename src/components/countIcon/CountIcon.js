@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import './countIcon.css';
 
 function CountIcon({title, count}) {
-    const url = "%PUBLIC_URL%/" + title;
+    const url = "/" + title;
     const params = {};
     // eslint-disable-next-line default-case
     switch (title) {
