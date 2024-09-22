@@ -77,8 +77,8 @@ function App() {
                 <div className="container">
                     <Header cartCount={countCartList()} favouritesCount={favouritesList.length}/>
                     <Routes>
-                        <Route path="/" element={<GoodsList goods={goods} onAddToCart={onAddToCart} />} />
-                        <Route path="/cart" element={<Cart cartList={cartList} onIncrCart={onIncrCart} onDecrCart={onDecrCart} onRemoveCart={onRemoveCart}/>} />
+                        <Route path="%PUBLIC_URL%/" element={<GoodsList goods={goods} onAddToCart={onAddToCart} />} />
+                        <Route path="%PUBLIC_URL%/cart" element={<Cart cartList={cartList} onIncrCart={onIncrCart} onDecrCart={onDecrCart} onRemoveCart={onRemoveCart}/>} />
                     </Routes>
                     <Footer />
                 </div>
