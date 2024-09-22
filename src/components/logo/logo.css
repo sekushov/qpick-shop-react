@@ -1,0 +1,8 @@
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    height: fit-content;
+}
+.logo:hover {
+    transform: scale(1.05);
+}

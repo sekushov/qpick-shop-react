@@ -1,0 +1,15 @@
+.goods-list__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.goods-list__category-block {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.goods-list__category-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #838383;
+}

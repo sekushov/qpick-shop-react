@@ -1,0 +1,18 @@
+.app {
+    background-color: #EAEAEA;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}

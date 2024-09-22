@@ -1,0 +1,27 @@
+.countIcon {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    margin: 19px;
+    cursor: pointer;
+}
+.countIcon__icon:hover {
+    transform: scale(1.2);
+}
+.countIcon__notice {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    background: #FFA542;
+    border-radius: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.countIcon__icon {
+    width: 100%;
+    height: 100%;
+}
